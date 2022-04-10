@@ -10,11 +10,10 @@ c) Does ticket price change based on the departure time and arrival time?
 d) How the price changes with change in Source and Destination?
 e) How does the ticket price vary between Economy and Business class?
 
-# Source of Dataset
+## Source of Dataset
 Dataset was obtained from the Kaggle, <a href="https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction"> Flight Price Prediction by Shubham Bathwal</a>. It contains information about flight booking options from the website Easemytrip for flight travel between India's top 6 metro cities. There are 300261 datapoints and 11 features in the cleaned dataset.
 
-# FEATURES
-The various features of the cleaned dataset are explained below:
+## Data Descriptions
 1) Airline: The name of the airline company is stored in the airline column. It is a categorical feature having 6 different airlines.
 2) Flight: Flight stores information regarding the plane's flight code. It is a categorical feature.
 3) Source City: City from which the flight takes off. It is a categorical feature having 6 unique cities.
