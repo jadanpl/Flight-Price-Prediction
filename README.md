@@ -1,9 +1,8 @@
 # Flight-Price-Prediction
-## Objective
-To analyse the flight booking dataset obtained from <a href="https://www.easemytrip.com/">“Ease My Trip”</a> website and to get meaningful information from it. The regression statistical algorithm would be used to train the dataset and predict a continuous target variable. A thorough study of the data will aid in the discovery of valuable insights that will be of enormous value to passengers.
+## Objective & Research Questions
+To analyse the flight booking dataset obtained from <a href="https://www.easemytrip.com/">“Ease My Trip”</a> website and to get meaningful information that will be of enormous value to passengers. The regression statistical algorithm would be used to train the dataset and predict a continuous target variable.
 
-## Research Questions
-The aim of our study is to answer the below research questions:
+The possible related research questions could be:
 a) Does price vary with Airlines?
 b) How is the price affected when tickets are bought in just 1 or 2 days before departure?
 c) Does ticket price change based on the departure time and arrival time?
