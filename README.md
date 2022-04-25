@@ -1,14 +1,15 @@
 # Flight-Price-Prediction
 ## Objective & Research Questions
-To analyse the flight booking dataset obtained from <a href="https://www.easemytrip.com/">“Ease My Trip”</a> website and to get meaningful information that will be of enormous value to passengers. The regression statistical algorithm would be used to train the dataset and predict a continuous target variable.
+To analyse the flight booking dataset obtained from <a href="https://www.easemytrip.com/">“Ease My Trip”</a> website and to get meaningful information for the passengers. The regression statistical algorithm would be used to train the dataset and predict a continuous target variable.
 
 The possible related research questions could be:
-a) Does price vary with Airlines?
-b) How is the price affected when tickets are bought in just 1 or 2 days before departure?
-c) Does ticket price change based on the departure time and arrival time?
-d) How the price changes with change in Source and Destination?
-e) How does the ticket price vary between Economy and Business class?
-
+<ol>
+  <li> Does price vary with Airlines? </li> 
+  <li> How is the price affected when tickets are bought in just 1 or 2 days before departure?</li> 
+  <li> Does ticket price change based on the departure time and arrival time?</li> 
+  <li> How the price changes with change in Source and Destination?</li> 
+  <li> How does the ticket price vary between Economy and Business class?</li> 
+<ol>
 ## Source of Dataset
 Dataset was obtained from the Kaggle, <a href="https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction"> Flight Price Prediction by Shubham Bathwal</a>. It contains information about flight booking options from the website Easemytrip for flight travel between India's top 6 metro cities. There are 300261 datapoints and 11 features in the cleaned dataset.
 
