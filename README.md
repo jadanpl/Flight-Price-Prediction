@@ -12,7 +12,7 @@ The possible related research questions could be:
 </ol>
 
 ## Source of Dataset
-Dataset was obtained from the Kaggle, <a href="https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction"> Flight Price Prediction by Shubham Bathwal</a>. It contains information about flight booking options from the website Easemytrip for flight travel between India's top 6 metro cities. There are 300261 datapoints and 11 features in the cleaned dataset.
+Dataset was obtained from the Kaggle, <a href="https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction"> Flight Price Prediction by Shubham Bathwal</a>. It contains information about flight booking options from the website Easemytrip for flight travel between India's top 6 metro cities. There are 300,153 datapoints and 11 features in the cleaned dataset.
 
 ## Data Descriptions
 1) Airline: The name of the airline company is stored in the airline column. It is a categorical feature having 6 different airlines.
