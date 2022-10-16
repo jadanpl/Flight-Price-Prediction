@@ -29,6 +29,11 @@ The dataset was <a href="https://www.kaggle.com/datasets/shubhambathwal/flight-p
 
 ## Techniques Used 🕵️‍♀️
 
+
 ## Result 🔎
 
+
 ## Recommendation 📥
+* We could implement other ML algorithms, such as KNeighborsRegressor, decision tree regressor, or XGB regressor. 
+* Ensemble methods such as stacking regressor and voting regressor could be used to check if the model performance could be further improved.  
+* Randomized Search could be used to tune the hyperparameters to see if the hyperparameter combination is the same. 
