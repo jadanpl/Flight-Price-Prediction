@@ -1,4 +1,6 @@
 # Flight Price Prediction
+Click to <a href="" target="_blank"><img src="https://camo.githubusercontent.com/767be70c92254555bd347ab07908fec67854c2264b77702581bd230fd7eac54f/68747470733a2f2f7374617469632e73747265616d6c69742e696f2f6261646765732f73747265616d6c69745f62616467655f626c61636b5f77686974652e737667" width="180"></a> and interact with the application. 🥂
+
 ## Objective & Research Questions 🤔
 <ul>
 <li>To analyse the flight booking dataset obtained from <a href="https://www.easemytrip.com/">“Ease My Trip”</a> website and to get meaningful information for the passengers. The possible related research questions could be:</li> 
