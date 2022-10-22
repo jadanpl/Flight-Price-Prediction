@@ -57,4 +57,7 @@ model = pickle.load(open('ridge_reg.pkl', 'rb'))
 # Apply model to make predictions
 prediction = model.predict(input_df)
 st.subheader('Prediction')
-st.success(f'The estimated flight price is {"${:,.2f}".format(prediction[0])}. Safe trip! ✈️')
+if prediction<=0:
+    st.success("Out of scope. Please select other option. Thank you!")
+else:
+    st.success(f'The estimated flight price is {"${:,.2f}".format(prediction[0])}. Safe trip! ✈️')
