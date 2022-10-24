@@ -29,10 +29,8 @@ The dataset was <a href="https://www.kaggle.com/datasets/shubhambathwal/flight-p
 <li> Price: Target variable stores information of the ticket price.</li>
 </ol>
 
-## Techniques Used 🕵️‍♀️
-
-
 ## Result 🔎
+* 
 
 
 ## Recommendation 📥
