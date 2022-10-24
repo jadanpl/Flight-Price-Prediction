@@ -30,7 +30,11 @@ The dataset was <a href="https://www.kaggle.com/datasets/shubhambathwal/flight-p
 </ol>
 
 ## Result 🔎
-* 
+* It is found that only Vistara and Air India provide flight with business class, but the maximum price for the business flight of the Vistara is higher than that of the business flight of the Air India.
+* When we compared the maximum economy flight price from each airline, we found that economy flight ticket from the AirAsia, GO First, and Indigo offered the same lowest price, which is $1,105.00.
+* The maximum duration for flight with no stops is only 3.58 hours. The flight was AI-773 from Air_India which fled from Kolkata at evening and arrived Mumbai at night.
+* Flight with business class, two or more stops and early morning departure time have the highest maximum price as compared to other flights. There is no business class flight with two or more stops that depart at late night.
+* The flight price became higher when the days left before departure is getting lesser.
 
 
 ## Recommendation 📥
