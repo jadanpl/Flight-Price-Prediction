@@ -52,7 +52,7 @@ st.subheader('Your Selection')
 st.dataframe(input_df)
 
 # Load saved regression model
-model = pickle.load(open('ridge_reg.pkl', 'rb'))
+model = pickle.load(open('rf_reg.pkl', 'rb'))
 
 # Apply model to make predictions
 prediction = model.predict(input_df)
