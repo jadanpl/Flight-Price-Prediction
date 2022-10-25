@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import bz2
+import _pickle as cPickle
 
 st.header('Flight Price Prediction')
 st.write("Let's check out possible flight price for your desired flight.")
@@ -52,7 +53,13 @@ st.subheader('Your Selection')
 st.dataframe(input_df)
 
 # Load saved regression model
-model = pickle.load(open('rf_reg.pkl', 'rb'))
+# model = pickle.load(open('rf_reg.pkl', 'rb'))
+
+def decompress_pickle(file):
+    data = bz2.BZ2File(file, 'rb')
+    data = cPickle.load(data)
+    return data
+model = decompress_pickle('rf_reg')
 
 # Apply model to make predictions
 prediction = model.predict(input_df)
