@@ -1,5 +1,5 @@
 # load libraries
-from sklearn.linear_model import Ridge
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.pipeline import Pipeline
@@ -23,8 +23,8 @@ trans = ColumnTransformer(transformers=[('num', MinMaxScaler(), num_cols),
                                         ('cat', OneHotEncoder(sparse=False, handle_unknown='ignore'), cat_cols)],
                           remainder='passthrough')
 final_model = Pipeline(steps=[('transformer',trans),
-                              ('ridge', Ridge(alpha=5.0, random_state=42))])
+                              ('rf', RandomForestRegressor(max_depth=30, min_samples_leaf=3,n_jobs=-1, random_state=42))])
 final_model.fit(X,Y)
 
 # save model
-pickle.dump(final_model, open('ridge_reg.pkl','wb'))
+pickle.dump(final_model, open('rf_reg.pkl','wb'))
