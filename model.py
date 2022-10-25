@@ -7,6 +7,7 @@ from sklearn.compose import ColumnTransformer
 import pandas as pd
 import numpy as np
 import pickle
+import bz2
 
 # load dataset
 df = pd.read_csv("https://raw.githubusercontent.com/jadanpl/Flight-Price-Prediction/main/Clean_Flight_Price_Dataset.csv")
@@ -27,4 +28,7 @@ final_model = Pipeline(steps=[('transformer',trans),
 final_model.fit(X,Y)
 
 # save model
-pickle.dump(final_model, open('rf_reg.pkl','wb'))
+# pickle.dump(final_model, open('rf_reg.pkl','wb')) # file size too large
+
+# Saving zipped model
+pickle.dump(final_model, bz2.BZ2File("rf_reg",'wb'))
