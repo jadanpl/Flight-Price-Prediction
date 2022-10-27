@@ -1,5 +1,5 @@
 # Flight Price Prediction
-
+Transportation such as ships and airplanes has provided us with many benefits. For example, these transportations enable us to ship trade items from one country to another, thereby improving the economy of the country. Besides, they also encourage the development of the tourism sector. Airfare price is an important factor for those individuals who wish to travel around with low budget. Hence, it would be great if we could predict the airfare price. For this project, I would use Flight Price Prediction dataset from Kaggle to demonstrate how we can predict  airfare using machine learning.
 
 ## Objective & Research Questions 🤔
 <ul>
@@ -11,6 +11,7 @@
   <li> How the price changes with change in Source and Destination?</li> 
   <li> How does the ticket price vary between Economy and Business class?</li> 
 </ul>
+  <li>g</li>
 </ul>
 
 ## Source of Dataset 📅
