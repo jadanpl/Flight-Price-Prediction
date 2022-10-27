@@ -1,5 +1,5 @@
 # Flight Price Prediction
-Click to <a href="https://jadanpl-flight-price-prediction-streamlit-app-kp89g5.streamlitapp.com/" target="_blank"><img src="https://camo.githubusercontent.com/767be70c92254555bd347ab07908fec67854c2264b77702581bd230fd7eac54f/68747470733a2f2f7374617469632e73747265616d6c69742e696f2f6261646765732f73747265616d6c69745f62616467655f626c61636b5f77686974652e737667" width="180"></a> and interact with the application. 🥂
+
 
 ## Objective & Research Questions 🤔
 <ul>
@@ -35,6 +35,10 @@ The dataset was <a href="https://www.kaggle.com/datasets/shubhambathwal/flight-p
 * The maximum duration for flight with no stops is only 3.58 hours. The flight was AI-773 from Air_India which fled from Kolkata at evening and arrived Mumbai at night.
 * Flight with business class, two or more stops and early morning departure time have the highest maximum price as compared to other flights. There is no business class flight with two or more stops that depart at late night.
 * The flight price became higher when the days left before departure is getting lesser.
+
+
+https://user-images.githubusercontent.com/57357735/198346386-9e855d47-7c62-4dba-b439-95808707ab45.mp4
+
 
 
 ## Recommendation 📥
