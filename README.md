@@ -1,5 +1,5 @@
 # Flight Price Prediction
-Transportation such as ships and airplanes has provided us with many benefits. For example, these transportations enable us to ship trade items from one country to another, thereby improving the economy of the country. Besides, they also encourage the development of the tourism sector. Airfare price is an important factor for those individuals who wish to travel around with low budget. 
+Transportation such as ships and airplanes has provided us with many benefits. For example, these transportations enable us to ship trade items from one country to another, thereby improving the economy of the country. Besides, they also encourage the development of the tourism sector. Airfare price is often an important factor for those individuals who wish to travel around with low budget. 
 
 ## Objective & Research Questions 🤔
 <ul>
