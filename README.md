@@ -1,9 +1,9 @@
 # Flight Price Prediction
-Transportation such as ships and airplanes has provided us with many benefits. For example, these transportations enable us to ship trade items from one country to another, thereby improving the economy of the country. Besides, they also encourage the development of the tourism sector. Airfare price is an important factor for those individuals who wish to travel around with low budget. Hence, it would be great if we could predict the airfare price. For this project, I would use Flight Price Prediction dataset from Kaggle to demonstrate how we can predict  airfare using machine learning.
+Transportation such as ships and airplanes has provided us with many benefits. For example, these transportations enable us to ship trade items from one country to another, thereby improving the economy of the country. Besides, they also encourage the development of the tourism sector. Airfare price is an important factor for those individuals who wish to travel around with low budget. 
 
 ## Objective & Research Questions 🤔
 <ul>
-<li>To analyse the flight booking dataset obtained from <a href="https://www.easemytrip.com/">“Ease My Trip”</a> website and to get meaningful information for the passengers. The possible related research questions could be:</li> 
+<li>To analyse the flight booking dataset obtained from <a href="https://www.easemytrip.com/">“Ease My Trip”</a> website. The possible related research questions could be:</li> 
 <ul>
   <li> Does price vary with Airlines? </li> 
   <li> How is the price affected when tickets are bought in just 1 or 2 days before departure?</li> 
@@ -11,7 +11,7 @@ Transportation such as ships and airplanes has provided us with many benefits. F
   <li> How the price changes with change in Source and Destination?</li> 
   <li> How does the ticket price vary between Economy and Business class?</li> 
 </ul>
-  <li>g</li>
+  <li>To build regression model that could predict the airfare price. </li>
 </ul>
 
 ## Source of Dataset 📅
@@ -36,11 +36,9 @@ The dataset was <a href="https://www.kaggle.com/datasets/shubhambathwal/flight-p
 * The maximum duration for flight with no stops is only 3.58 hours. The flight was AI-773 from Air_India which fled from Kolkata at evening and arrived Mumbai at night.
 * Flight with business class, two or more stops and early morning departure time have the highest maximum price as compared to other flights. There is no business class flight with two or more stops that depart at late night.
 * The flight price became higher when the days left before departure is getting lesser.
-* Below is the screencast of the developed streamlit app that run on my local PC.   
+* The final model chosen is a random forest regressor, and below is the screencast of how the developed streamlit app run on my local PC.   
 
 https://user-images.githubusercontent.com/57357735/198346386-9e855d47-7c62-4dba-b439-95808707ab45.mp4
-
-
 
 ## Recommendation 📥
 * We could implement other ML algorithms, such as KNeighborsRegressor, decision tree regressor, random forest regressor or XGB regressor.
