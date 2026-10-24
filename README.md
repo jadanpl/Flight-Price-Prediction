@@ -30,13 +30,24 @@ The dataset was <a href="https://www.kaggle.com/datasets/shubhambathwal/flight-p
 <li> Price: Target variable stores information of the ticket price.</li>
 </ol>
 
-## Result 🔎
+## Explanatory Data Analysis 👀
 * It is found that only Vistara and Air India provide flight with business class, but the maximum price for the business flight of the Vistara is higher than that of the business flight of the Air India.
 * When we compared the maximum economy flight price from each airline, we found that economy flight ticket from the AirAsia, GO First, and Indigo offered the same lowest price, which is $1,105.00.
 * The maximum duration for flight with no stops is only 3.58 hours. The flight was AI-773 from Air_India which fled from Kolkata at evening and arrived Mumbai at night.
 * Flight with business class, two or more stops and early morning departure time have the highest maximum price as compared to other flights. There is no business class flight with two or more stops that depart at late night.
 * The flight price became higher when the days left before departure is getting lesser.
-* The final model chosen is a random forest regressor, and below is the screencast of how the developed streamlit app run on my local PC.   
+
+## Model Selection & Evaluation 🔎
+### Why Log Transformation in Ridge, Lasso, and Elastic Net
+Linear models assume a linear relationship between input features and the target variable, along with homoscedastic (constant variance) normally distributed errors. In flight booking datasets, ticket prices exhibit extreme right-skewness driven by high-tier business class fares and last-minute booking spikes. Without transformation, these large target values disproportionately dominate the loss function, forcing linear models to chase extreme outliers at the expense of regular pricing brackets. Applying a natural logarithm transformation to the target variable compresses this heavy tail, normalizes error distributions, and stabilizes variance, allowing linear algorithms to learn balanced coefficients across both economy and business pricing tiers.
+
+### Why Data Split into Train, Test, and Validate
+Splitting data into training, validation, and testing sets prevents overfitting and provides an unbiased evaluation of generalization performance.
+
+### Why the Final Model is Random Forest
+* Linear models with log transformations struggle to capture non-linear interactions and complex decision boundaries inherent in airline pricing dynamics—such as non-linear price jumps as departure dates near or complex interactions between specific airlines, routes, and seat classes. A tuned Random Forest Regressor handles these multi-dimensional, non-linear interactions natively by constructing an ensemble of decision trees that partition feature spaces recursively. By averaging predictions across hundreds of decorrelated trees with tuned hyperparameters (max_features=0.5, n_estimators=200), the Random Forest mitigates overfitting, handles collinear categorical features robustly, and achieves superior predictive accuracy compared to penalized linear baselines.
+  
+* Below is the screencast of how the developed streamlit app run on my local PC.   
 
 https://user-images.githubusercontent.com/57357735/198346386-9e855d47-7c62-4dba-b439-95808707ab45.mp4
 
