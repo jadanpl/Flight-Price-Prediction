@@ -21,10 +21,10 @@ cat_cols = list(X.select_dtypes(include='object').columns)
 
 # model building
 trans = ColumnTransformer(transformers=[('num', MinMaxScaler(), num_cols),
-                                        ('cat', OneHotEncoder(sparse=False, handle_unknown='ignore'), cat_cols)],
+                                        ('cat', OneHotEncoder(sparse_output=False, handle_unknown='ignore'), cat_cols)],
                           remainder='passthrough')
 final_model = Pipeline(steps=[('transformer',trans),
-                              ('rf', RandomForestRegressor(max_depth=30, min_samples_leaf=3,n_jobs=-1, random_state=42))])
+                              ('rf', RandomForestRegressor(max_features=0.5, n_estimators=200,n_jobs=-1, random_state=42))])
 final_model.fit(X,Y)
 
 # save model
