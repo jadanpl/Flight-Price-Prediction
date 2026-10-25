@@ -49,7 +49,7 @@ Splitting data into training, validation, and testing sets prevents overfitting 
   
 * Below is the screencast of how the developed streamlit app run on my local PC.   
 
-https://user-images.githubusercontent.com/57357735/198346386-9e855d47-7c62-4dba-b439-95808707ab45.mp4
+<img width="1868" height="810" alt="Recording 2026-10-25 153716" src="https://github.com/user-attachments/assets/5782f3af-df35-441f-bb89-2ee071bacdfb" />
 
 ## Recommendation 📥
 * We could implement other ML algorithms, such as KNeighborsRegressor, or support vector regressor.
